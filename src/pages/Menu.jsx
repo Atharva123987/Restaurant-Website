@@ -14,25 +14,19 @@ import Img10 from "../assets/menu/julaibee.jpg"
 import Img11 from "../assets/menu/Lachcha-rabri-4.jpg"
 import Img12 from "../assets/menu/rasgulla.jpg"
 import './menu.css'
-import { useState } from 'react'
 const Menu = () =>{
 
     return(
         <>
         <NavBar/>
-
   
         <div id='menu-container' className='container'>
 
         <h2>Our Menu</h2>
-		<ul>
-		  <li><a href="#starters">Starters</a></li>
-		  <li><a href="#mains">Mains</a></li>
-		  <li><a href="#deserts">Deserts</a></li>
-		  <li><a href="#specials">Specials</a></li>
-		</ul>
-
+		
+		<h2>Starters</h2>
         <div className='contents'>
+		
         <div class="boxes">
   			<h3>Paneer 65</h3>
   			<p class="bodyText">Paneer 65 is a spicy Hyderabadi appetizer made with paneer, flour, yogurt, curry leaves and spices. Firstly paneer is batter fried until crisp and then tossed in a spicy tempering masala.</p>
@@ -52,12 +46,9 @@ const Menu = () =>{
   		</div>
         </div>
 
+		<h2>Mains</h2>
         <div className='contents'>
-            
-    
-  	
-        <h2>Mains</h2>
-            
+
             <div class="boxes ">
                 <h3>Veg Biryani</h3>
                 <p class="bodyText">Vegetable Biryani is an aromatic rice dish made with basmati rice, mix veggies, herbs and biryani spices. Biryani is a celebration of exotic flavors, vibrant colors and pleasing aromas infused into a pot of goodness.</p>
@@ -75,16 +66,14 @@ const Menu = () =>{
                 <p class="bodyText">Malai Kofta is a very popular Indian dish where kofta made of potato and paneer are deep fried and served with a creamy and spiced tomato curry.The kofta in this malai kofta is made with paneer, potato, ginger, cilantro and some nuts.</p>
             <img class="menu-images" src={Img6} alt=""/>
             </div>
-            
   		
   	
 
         </div>
 
+		<h2>Deserts</h2>
         <div className='contents'>
 
-            <h2>Deserts</h2>
-  		
   		<div class="boxes">
   			<h3>Jalebi</h3>
   			<p class="bodyText">Jalebi is a sweet snack popular all over South and Western Asia. It is made by deep-frying maida flour (plain flour or all-purpose flour) batter in pretzel or circular shapes, which are then soaked in sugar syrup.</p>
@@ -102,15 +91,13 @@ const Menu = () =>{
   			<p class="bodyText">Rasgulla, Rasagola or Roshogolla is a South Asian syrupy dessert popular in the Indian subcontinent. It is made from ball-shaped dumplings of chhena and semolina dough, cooked in light syrup made of sugar.</p>
   			<img class="menu-images" src={Img12} alt="rasgulla"/>
   		</div>
-  		<footer class="clear"></footer>
+  		
   		
 
         </div>
 
+		<h2>Specials</h2>
         <div className='contents'>
-
-  	
-  	<h2>Specials</h2>
   		
   		<div class="boxes">
   			<h3>Veg Biryani with Lachha Rabdi</h3>

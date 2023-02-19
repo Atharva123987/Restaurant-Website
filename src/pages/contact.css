@@ -1,0 +1,36 @@
+#contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-text{
+    color:rgb(81,66,75);
+}
+
+#contact-form{
+    width:40vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(80,18,109);
+    padding:10px;
+    color:white;
+}
+
+#contact-form > span{
+    color:white;
+}
+
+#contact-form > input{
+    margin:10px 0;
+}
+
+input[type="submit"]{
+    margin:20px auto;
+    width: 10vw;
+}
+
+input[name="comments"]{
+    height: 10vh;
+}

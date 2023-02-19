@@ -5,7 +5,7 @@ const OpeningHours = () =>{
         <div id='openinghours-container' className="container">
   	  
   	  <div class="openinghours-table">
-    	  <h2>Opening Hours</h2>
+    	  <h2 align='center'>Opening Hours</h2>
     	  
     	  <p></p>
     	  
