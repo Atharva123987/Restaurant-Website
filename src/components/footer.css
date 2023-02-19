@@ -1,24 +1,31 @@
-footer{
+.footer{
     background-color: rgb(36,33,33);
     display: flex;
+    flex-direction: row;
+    color:white;    
+    justify-content: space-evenly;
+}
+
+
+#footer-list > a{
     color:white;
-}
-.footer > ul{
-    list-style: none;
-    margin:0;
+    text-decoration: none;
+    margin:10px;
 }
 
-.footer li> a{
-    color:rgb(255, 36, 95);
-}
-
-.footer li>a:hover{
-    color:white;
-}
-
-.footer>ul{
+#footer-list{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    
+}
+
+#footer-list >a:hover{
+    color:rgb(178,18,61);
+}
+
+#footer-list >a:active{
+    color:red;
+}
+
+.phoneEmail{
+    margin:10px 0;
 }

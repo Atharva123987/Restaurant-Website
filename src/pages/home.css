@@ -15,6 +15,9 @@
 
 #openinghours-container{
     background-color: rgb(178,18,61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
