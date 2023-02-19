@@ -1,0 +1,10 @@
+.menu-images{
+    width: 28vw;
+    height: 40vh;
+    overflow: hidden;
+}
+
+#menu-container{
+    background-color:rgb(236,192,221);
+   
+}
