@@ -1,0 +1,24 @@
+footer{
+    background-color: rgb(36,33,33);
+    display: flex;
+    color:white;
+}
+.footer > ul{
+    list-style: none;
+    margin:0;
+}
+
+.footer li> a{
+    color:rgb(255, 36, 95);
+}
+
+.footer li>a:hover{
+    color:white;
+}
+
+.footer>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
