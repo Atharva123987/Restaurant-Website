@@ -1,20 +1,26 @@
 import {Link } from 'react-router-dom'
+import { HashLink as L } from 'react-router-hash-link';
 import './footer.css'
 const Footer = () =>{
     return(
         <>
         <footer>
         <div className='footer'>
+        <div id='footer-list'>
         
-        <ul>
-            <li><Link to='/'>Home</Link></li>
-            <li><Link to='/'>Menu</Link></li>
-            <li><Link to='/'>About</Link></li>
-            <li><Link to='/'>Contact</Link></li>
-        </ul>
+            <L smooth to='/#'>Home</L>
+            <Link to='/menu'>Menu</Link>
+            <Link to='/about'>About</Link>
+            <Link to='/contact'>Contact</Link>
+        
         </div>
-        <p class="phoneEmail">Phone : 01 555 4545 or Email : help@tasteofindia.ie</p>
         
+        <div className='phno'>
+        <p class="phoneEmail">Phone : 01 555 4545</p>
+        <p>Email : help@tasteofindia.ie</p>
+        </div>
+        
+        </div>
         </footer>
         </>
     )

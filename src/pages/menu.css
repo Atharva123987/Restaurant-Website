@@ -1,0 +1,14 @@
+.menu-images{
+    width: 28vw;
+    height: 40vh;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px black;
+    margin-top: auto;
+}
+
+#menu-container{
+    background-color:rgb(236,192,221);
+    display: flex;
+    align-content: space-around;
+}
+

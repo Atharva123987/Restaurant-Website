@@ -3,30 +3,32 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 #logo{
     width: 250px;
 }
 
-li{
-    margin:0 10px;
-}
-
-li > a{
-    text-decoration: none;
-    color:white;
-    
+.navbar{
+    display: flex;
+    width: 100%;
+    background-color: rgb(178,18,61);
+    padding:10px 0;
+    justify-content: center;
 }
 
 .navbar > *{
     list-style: none;
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    background-color: rgb(178,18,61);
-    padding:10px;
     color:white;
-    margin:0;
+    text-decoration: none;
+    margin:0 2vh;
 }
 
+.navbar > a:hover{
+    color:rgb(236,192,221);  
+}
+
+.navbar > a:active{
+    color:lightcoral;  
+}

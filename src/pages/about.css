@@ -1,0 +1,12 @@
+.boxes-about{
+    display: flex;
+    flex-direction: column;
+    width:20%;
+}
+
+.newid{
+    font-size: large;
+    color:white;
+    background-color: rgb(178,18,61);
+    padding:10px;
+}
