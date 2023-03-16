@@ -12,6 +12,7 @@
 
 #home-container{
     background-color:rgb(236,192,221) ; 
+    
 }
 
 #openinghours-container{
@@ -42,7 +43,11 @@ h3 > a{
 .boxes{
     display: flex;
     flex-direction: column;
+    
     width: 28vw;
+}
+.bodyText{
+    margin-bottom: auto;
 }
 
 .home-images{
