@@ -23,8 +23,8 @@ const Contact = () =>{
                 <label for='telephone'>Number:</label>
                 <input name="telephone" type="telephone" placeholder="xxx-xxx-xxxx"/>
                 <label for='comments'>Comments:</label>
-                <input name="comments" type="text" placeholder=""/>
-
+               
+                <textarea name="comments" placeholder="Enter your comments..."></textarea>
                 <input name="submit" type="submit"/>
                 
             </div>
